@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Главная</title>
+</head>
+
+<body>
+
+  <header class="header">
+
+    <a href="#" class="logo"><i class="fas fa-lightbulb"></i> educa </a>
+
+    <nav class="navbar">
+      <div id="close-navbar" class="fas fa-times"></div>
+      <a href="index.html">Главная</a>
+      <a href="about.html">О нас</a>
+      <a href="courses.html">Курсы</a>
+      <a href="contact.html">Контакты</a>
+    </nav>
+
+    <div class="icons">
+      <div id="account-btn" class="fas fa-user"></div>
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </div>
+
+  </header>
+  <!-- account form section start -->
+  <div class="account-form">
+    <div id="close-form" class="fas fa-times"></div>
+
+    <div class="buttons">
+      <span class="btn active login-btn">Авторизация</span>
+      <span class="btn register-btn">Зарегистрироваться</span>
+    </div>
+
+    <form class="login-form active" action="">
+      <h3>Вход в систему</h3>
+      <input type="email" placeholder="введите ваш email" class="box">
+      <input type="password" placeholder="введите пароль" class="box">
+      <div class="flex">
+        <input type="checkbox" id="remember-me">
+        <label for="remember-me">запомнить </label>
+        <a href="#">забыли пароль?</a>
+      </div>
+      <input type="submit" value="войдите в систему" class="btn">
+    </form>
+
+    <form class="register-form" action="">
+      <h3>Регистрация</h3>
+      <input type="email" placeholder="введите ваш email" class="box">
+      <input type="password" placeholder="введите пароль" class="box">
+      <input type="password" placeholder="подтвердите пароль" class="box">
+      <input type="submit" value="войдите в систему" class="btn">
+    </form>
+
+  </div>
+  <!-- account form section end -->
+
+  <!-- Home section starts -->
+  <section class="home">
+
+    <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+        <section class="swiper-slide slide" style="background: url(img/dest/home-slide-1.jpg)no-repeat">
+          <div class="content">
+            <h3>Лучшие курсы для вас!!!</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste incidunt doloremque quasi sapiente rerum dicta.</p>
+            <a href="#" class="btn">Начать</a>
+          </div>
+        </section>
+
+        <section class="swiper-slide slide" style="background: url(img/dest/home-slide-2.jpg)no-repeat">
+          <div class="content">
+            <h3>Лучшие курсы для вас!!!</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste incidunt doloremque quasi sapiente rerum dicta.</p>
+            <a href="#" class="btn">Начать</a>
+          </div>
+        </section>
+
+        <section class="swiper-slide slide" style="background: url(img/dest/home-slide-3.jpg)no-repeat">
+          <div class="content">
+            <h3>Лучшие курсы для вас!!!</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste incidunt doloremque quasi sapiente rerum dicta.</p>
+            <a href="#" class="btn">Начать</a>
+          </div>
+        </section>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+    </div>
+
+  </section>
+  <!-- Home section ends -->
+  <!-- subjects section starts -->
+  <section class="subjects">
+
+    <h1 class="heading">Популярные программы обучения</h1>
+
+    <div class="box-container">
+
+      <div class="box">
+        <img src="img/dest/subject-icon-1.png" alt="subject">
+        <h3>Дизайн</h3>
+        <p>12 модулей</p>
+      </div>
+
+      <div class="box">
+        <img src="img/dest/subject-icon-2.png" alt="subject">
+        <h3>Математика</h3>
+        <p>12 модулей</p>
+      </div>
+
+      <div class="box">
+        <img src="img/dest/subject-icon-3.png" alt="subject">
+        <h3>Преподование</h3>
+        <p>12 модулей</p>
+      </div>
+
+      <div class="box">
+        <img src="img/dest/subject-icon-4.png" alt="subject">
+        <h3>Разработка</h3>
+        <p>12 модулей</p>
+      </div>
+
+      <div class="box">
+        <img src="img/dest/subject-icon-5.png" alt="subject">
+        <h3>Наука</h3>
+        <p>12 модулей</p>
+      </div>
+
+      <div class="box">
+        <img src="img/dest/subject-icon-6.png" alt="subject">
+        <h3>Инженеринг</h3>
+        <p>12 модулей</p>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- subjects section ends -->
+  <!-- home courses slider starts -->
+  <section class="home-courses">
+
+    <h1 class="heading">Популярные курсы</h1>
+
+    <div class="swiper home-courses-slider">
+
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide slide">
+          <div class="image">
+            <img src="img/dest/course-1-1.png" alt="course">
+            <h3>Web разработка</h3>
+          </div>
+          <div class="content">
+            <h3>Web разработка</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, voluptatem.</p>
+            <a href="#" class="btn">Запишитесь</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <div class="image">
+            <img src="img/dest/course-1-2.png" alt="course">
+            <h3>Web разработка</h3>
+          </div>
+          <div class="content">
+            <h3>Web разработка</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, voluptatem.</p>
+            <a href="#" class="btn">Запишитесь</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <div class="image">
+            <img src="img/dest/course-1-3.png" alt="course">
+            <h3>Web разработка</h3>
+          </div>
+          <div class="content">
+            <h3>Web разработка</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, voluptatem.</p>
+            <a href="#" class="btn">Запишитесь</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <div class="image">
+            <img src="img/dest/course-1-4.png" alt="course">
+            <h3>Web разработка</h3>
+          </div>
+          <div class="content">
+            <h3>Web разработка</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, voluptatem.</p>
+            <a href="#" class="btn">Запишитесь</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <div class="image">
+            <img src="img/dest/course-1-5.png" alt="course">
+            <h3>Web разработка</h3>
+          </div>
+          <div class="content">
+            <h3>Web разработка</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, voluptatem.</p>
+            <a href="#" class="btn">Запишитесь</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <div class="image">
+            <img src="img/dest/course-1-6.png" alt="course">
+            <h3>Web разработка</h3>
+          </div>
+          <div class="content">
+            <h3>Web разработка</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, voluptatem.</p>
+            <a href="#" class="btn">Запишитесь</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- home courses slider ends -->
+
+
+  <!-- footer sections starts -->
+  <footer class="footer">
+
+    <div class="box-container">
+
+      <div class="box">
+
+        <h3><i class="fas fa-lightbulb"></i> educa </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, dignissimos.</p>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+        </div>
+
+      </div>
+
+      <div class="box">
+        <h3>Быстрые ссылки</h3>
+        <a href="index.html" class="link">Главная</a>
+        <a href="about.html" class="link">О нас</a>
+        <a href="courses.html" class="link">Курсы</a>
+        <a href="contact.html" class="link">Контакты</a>
+      </div>
+
+      <div class="box">
+        <h3>Полезные ссылки</h3>
+        <a href="#" class="link">Служба поддержки</a>
+        <a href="#" class="link">FAQ</a>
+        <a href="#" class="link">Отправить отзыв</a>
+        <a href="#" class="link">Политика конфедициальности</a>
+        <a href="#" class="link">Условия использования</a>
+      </div>
+
+      <div class="box">
+        <h3>Новостные рассылки</h3>
+        <p>Подпишитесь на последние обновления</p>
+        <form action="">
+          <input type="email" placeholder="введите ваш email" class="email">
+          <input type="submit" value="Подпишитесь" class="btn">
+        </form>
+      </div>
+
+    </div>
+
+    <div class="credit">
+      created by <span>mr. web designer</span> | all rights reserved!
+    </div>
+
+  </footer>
+  <!-- footer sections ends -->
+
+  <!-- 1:21 -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
